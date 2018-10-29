@@ -1,0 +1,19 @@
+{
+  "name": "use-once",
+  "version": "1.0.0",
+  "description": "Helper for react effects that only run once",
+  "main": "lib/use-once.js",
+  "repository": "git@github.com:CanopyTax/use-once.git",
+  "author": "Joel Denning <joeldenning@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "yarn compile",
+    "compile": "babel src --out-dir lib --source-maps"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "react": "16.7.0-alpha.0"
+  }
+}
