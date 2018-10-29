@@ -16,7 +16,7 @@ yarn add use-once
 
 ## Usage
 ```js
-import {useOnce} from 'useOnce'
+import {useOnce} from 'use-once'
 
 function ReactComp(props) {
   useOnce(() => {
