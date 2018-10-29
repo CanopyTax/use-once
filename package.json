@@ -1,6 +1,6 @@
 {
   "name": "use-once",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper for react effects that only run once",
   "main": "lib/use-once.js",
   "repository": "git@github.com:CanopyTax/use-once.git",
