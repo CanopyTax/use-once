@@ -10,6 +10,15 @@
     "prepublish": "yarn compile",
     "compile": "babel src --out-dir lib --source-maps"
   },
+  "keywords": [
+    "react",
+    "use",
+    "hook",
+    "effect",
+    "conditional",
+    "mount",
+    "componentDidMount"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
